@@ -1,12 +1,46 @@
-# React + Vite
+# Smart Reply AI ✉️🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Reply AI is a full-stack web application that generates smart, AI-powered email replies using the Gemini API. Built with Spring Boot for the backend and React + Vite for the frontend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+https://smartreplyai.netlify.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Axios, Tailwind CSS
+- **Backend:** Spring Boot (Java 17), Maven
+- **AI API:** Google Gemini API
+- **Deployment:** Netlify (frontend), Render (backend)
+
+---
+
+## 🚀 Features
+
+- Generate AI-based email replies
+- Choose tone/style (formal, casual, etc.)
+- Responsive UI
+- Environment variable support
+- Secure API communication
+
+---
+
+## 📸 Screenshots
+
+<!-- Add screenshots here -->
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b4a64ce8-3a58-44c7-a3eb-eeea45d48119" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a756455e-0328-496c-9be2-49c97576473d" />
+
+
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file for frontend:
+
+```env
+VITE_API_URL=https://your-render-backend.onrender.com/api
