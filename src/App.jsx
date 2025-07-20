@@ -110,7 +110,7 @@ function App() {
         color: 'primary.main',
         mb: 4
       }}>
-        Email Reply Generator
+        Smart Reply Generator
       </Typography>
 
       <StyledPaper elevation={3}>
